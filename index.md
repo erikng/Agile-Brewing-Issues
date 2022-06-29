@@ -1,4 +1,6 @@
-## Agile Brewing
+# Agile Brewing
+<img src="/assets/AppIcon.png" width=50% height=50%>
+
 Agile Brewing is an iOS, iPadOS and Mac Catalyst application for recording and hopefully improving your espresso shots.
 
 Written in Swift 5.7 and SwiftUI 4, this project has a minimum OS requirement of the following:
@@ -6,14 +8,15 @@ Written in Swift 5.7 and SwiftUI 4, this project has a minimum OS requirement of
 - iPadOS 16
 - macOS Ventura
 
-### JSON Format
+## JSON Format
 Agile Brewing saves all bean profiles, shots and shot templates as JSON files. If you use iCloud Drive it will save under `~/Library/Mobile\ Documents/iCloud\~Agile-Brewing/Documents` on macOS and on iOS/iPad OS under the Files app at the path `Skye-Design.Agile-Brewing`
 
+Inside of the root path, there are three sub-folders to correspond with each JSON type.
 - Skye-Design.Agile-Brewing/beans
 - Skye-Design.Agile-Brewing/shot_templates
 - Skye-Design.Agile-Brewing/shots
 
-#### Examples of the JSONs
+### Examples of the JSONs
 The following are examples of the JSON structure
 
 ##### Bean
