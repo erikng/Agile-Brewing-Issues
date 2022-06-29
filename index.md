@@ -1,37 +1,97 @@
-## Welcome to GitHub Pages
+## Agile Brewing
+Agile Brewing is an iOS, iPadOS and Mac Catalyst application for recording and hopefully improving your espresso shots.
 
-You can use the [editor on GitHub](https://github.com/erikng/Agile-Brewing-Issues/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Written in Swift 5.7 and SwiftUI 4, this project has a minimum OS requirement of the following:
+- iOS 16
+- iPadOS 16
+- macOS Ventura
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### JSON Format
+Agile Brewing saves all bean profiles, shots and shot templates as JSON files. If you use iCloud Drive it will save under `~/Library/Mobile\ Documents/iCloud\~Agile-Brewing/Documents` on macOS and on iOS/iPad OS under the Files app at the path `Skye-Design.Agile-Brewing`
 
-### Markdown
+- Skye-Design.Agile-Brewing/beans
+- Skye-Design.Agile-Brewing/shot_templates
+- Skye-Design.Agile-Brewing/shots
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Examples of the JSONs
+The following are examples of the JSON structure
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+##### Bean
+```json
+{
+  "id" : "CAB6B075-9F2C-4F32-910D-ECAD2AD6518E",
+  "name" : "Example Bean Name",
+  "origin" : "Example Origin Country",
+  "roastDate" : 676602960,
+  "roastDateEpoch" : 1655947003.8767362,
+  "roaster" : "Example Roaster",
+  "roastProfile" : "Light"
+}
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+##### Shot Templates
+```json
+{
+  "brewTemp" : 205,
+  "desiredRatio" : 2,
+  "doseWeight" : 18,
+  "id" : "CB195692-68B9-45DC-B6E3-AC96BA8C849E",
+  "selectedFilter" : "",
+  "tampWeight" : 30,
+  "templateName" : "Example Templates",
+  "usedCoffeeDistributionTool" : true,
+  "usedMDT" : true,
+  "usedPuckScreen" : true,
+  "usedRDT" : true
+}
+```
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/erikng/Agile-Brewing-Issues/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+##### Shots
+```json
+{
+  "appearanceRating" : 5,
+  "aromaRating" : 5,
+  "brewTemp" : 205,
+  "cremaRating" : 5,
+  "desiredRatio" : 2,
+  "doseWeight" : 18,
+  "grindSize" : 19,
+  "groupHeadPreHeated" : true,
+  "hasChannelling" : false,
+  "id" : "820B31FF-7BBF-40B3-B927-3D85A8E9292E",
+  "notes" : "Example Notes",
+  "overallRating" : 5,
+  "portafilterPreHeated" : true,
+  "preInfusionTime" : 7,
+  "puckConsistency" : "Dry",
+  "resultingDrink" : "Espresso",
+  "selectedBeanProfile" : {
+    "id" : "CAB6B075-9F2C-4F32-910D-ECAD2AD6518E",
+    "name" : "Example Bean Name",
+    "origin" : "Example Origin Country",
+    "roastDate" : 676602960,
+    "roastDateEpoch" : 1655947003.8767362,
+    "roaster" : "Example Roaster",
+    "roastProfile" : "Light"
+  },
+  "selectedFilter" : "",
+  "selectedNote1" : "Balanced",
+  "selectedNote2" : "",
+  "selectedNote3" : "",
+  "selectedNote4" : "",
+  "selectedNote5" : "",
+  "selectedNote6" : "",
+  "shotDate" : 678128713.73826003,
+  "shotDateEpoch" : 1656435913.73826,
+  "shotTime" : 23,
+  "tampWeight" : 30,
+  "tasteRating" : 5,
+  "totalDissolvedSolids" : 0,
+  "usedCoffeeDistributionTool" : true,
+  "usedMDT" : true,
+  "usedPuckScreen" : true,
+  "usedRDT" : true,
+  "yieldExtraction" : 0,
+  "yieldWeight" : 36.0
+}
+```
