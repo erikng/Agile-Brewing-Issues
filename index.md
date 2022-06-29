@@ -4,9 +4,10 @@
 Agile Brewing is an iOS, iPadOS and Mac Catalyst application for recording and hopefully improving your espresso shots.
 
 Written in Swift 5.7 and SwiftUI 4, this project has a minimum OS requirement of the following:
-- iOS 16
-- iPadOS 16
-- macOS Ventura
+- iOS/iPadOS 15.4
+- macOS Monterey 12.4
+
+To utilize all of the features available, please use iOS/iPadOS 16 or higher and macOS Venture 13.0 or higher.
 
 ## Getting Support
 Please go to the [GitHub Issues](https://github.com/erikng/Agile-Brewing-Issues/issues) page to submit any potential issues you are experiencing.
