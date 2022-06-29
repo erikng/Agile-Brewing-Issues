@@ -1,5 +1,5 @@
 # Agile Brewing
-<img src="/assets/AppIcon.png" width=50% height=50%>
+![AppIcon](/assets/AppIcon.png)
 
 Agile Brewing is an iOS, iPadOS and Mac Catalyst application for recording and hopefully improving your espresso shots.
 
