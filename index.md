@@ -8,6 +8,9 @@ Written in Swift 5.7 and SwiftUI 4, this project has a minimum OS requirement of
 - iPadOS 16
 - macOS Ventura
 
+## Getting Support
+Please go to the [GitHub Issues](https://github.com/erikng/Agile-Brewing-Issues/issues) page to submit any potential issues you are experiencing.
+
 ## JSON Format
 Agile Brewing saves all bean profiles, shots and shot templates as JSON files. If you use iCloud Drive it will save under `~/Library/Mobile\ Documents/iCloud\~Agile-Brewing/Documents` on macOS and on iOS/iPad OS under the Files app at the path `Skye-Design.Agile-Brewing`
 
@@ -98,3 +101,32 @@ The following are examples of the JSON structure
   "yieldWeight" : 36.0
 }
 ```
+
+## Screenshots
+This is the current beta UI
+
+![WelcomeScreen](/assets/WelcomeScreen.png)
+
+![BeanProfile](/assets/BeanProfile.png)
+
+![ShotTemplates](/assets/ShotTemplates.png)
+
+![EspressoShot-1](/assets/EspressoShot-1.png)
+
+![EspressoShot-2](/assets/EspressoShot-2.png)
+
+![EspressoShot-3](/assets/EspressoShot-3.png)
+
+![EspressoShot-4](/assets/EspressoShot-4.png)
+
+![EspressoShot-5](/assets/EspressoShot-5.png)
+
+![ShotHistory-1](/assets/ShotHistory-1.png)
+
+![ShotHistory-2](/assets/ShotHistory-2.png)
+
+![ShotHistory-3](/assets/ShotHistory-3.png)
+
+![Settings-1](/assets/Settings-1.png)
+
+![Settings-2](/assets/Settings-2.png)
