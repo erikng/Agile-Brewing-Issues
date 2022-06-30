@@ -110,7 +110,9 @@ This is the current beta UI
 
 ![BeanProfile](/assets/BeanProfile.png)
 
-![ShotTemplates](/assets/ShotTemplates.png)
+![ShotTemplates-1](/assets/ShotTemplates-1.png)
+
+![ShotTemplates-2](/assets/ShotTemplates-2.png)
 
 ![EspressoShot-1](/assets/EspressoShot-1.png)
 
@@ -131,3 +133,5 @@ This is the current beta UI
 ![Settings-1](/assets/Settings-1.png)
 
 ![Settings-2](/assets/Settings-2.png)
+
+![Settings-3](/assets/Settings-3.png)
