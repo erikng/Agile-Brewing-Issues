@@ -47,9 +47,9 @@ The following are examples of the JSON structure
   "tampWeight" : 30,
   "templateName" : "Example Templates",
   "usedCoffeeDistributionTool" : true,
-  "usedWDT" : true,
   "usedPuckScreen" : true,
-  "usedRDT" : true
+  "usedRDT" : true,
+  "usedWDT" : true
 }
 ```
 
@@ -95,9 +95,9 @@ The following are examples of the JSON structure
   "tasteRating" : 5,
   "totalDissolvedSolids" : 0,
   "usedCoffeeDistributionTool" : true,
-  "usedMDT" : true,
   "usedPuckScreen" : true,
   "usedRDT" : true,
+  "usedWDT" : true,
   "yieldExtraction" : 0,
   "yieldWeight" : 36.0
 }
