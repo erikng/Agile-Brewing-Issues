@@ -1,4 +1,6 @@
 # Agile Brewing
+![AppIcon](/assets/AppIcon.png)
+
 Agile Brewing is an iOS, iPadOS and Mac Catalyst application for recording and hopefully improving your espresso shots.
 
 Written in Swift 5.7 and SwiftUI 4, this project has a minimum OS requirement of the following:
