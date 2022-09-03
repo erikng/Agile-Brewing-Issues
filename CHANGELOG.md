@@ -55,6 +55,7 @@ https://docs.google.com/forms/d/e/1FAIpQLSeMkMTS8B6eoP-z8_0b02EV8Qau7Xw7OAoqiLkC
 - Many text fields can now dynamically change their font size to fit the available space
 - Added SwiftUI 4 "Scroll Dismisses Keyboard Immediately" logic
 - Hidden Long Press views are now on the "Drinks", "Templates" and "Settings" tabs
+- Automatically convert templates and drinks "Brew Temp" when changing from Farenheit to Celcius and Celcius to Farenheit
 
 ### Changed
 - "Reset" and "Submit" buttons in the Espresso Drink, Espresso Template and Bean views have been re-designed
