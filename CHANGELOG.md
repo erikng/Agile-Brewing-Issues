@@ -26,7 +26,7 @@ https://docs.google.com/forms/d/e/1FAIpQLSeMkMTS8B6eoP-z8_0b02EV8Qau7Xw7OAoqiLkC
 - Pour Over support
   - With a radically different UI than the Espresso views, the pour over design is created around replicating your favorite recipes, time and time again
   - Don't waste ground coffee! Increase or decrease your dosage and all of your water weight pours will be re-calculated according to your desired ratio
-  - Pre-Installed pour over recipes (templates) from public James Hoffman, Lance Hendrick and Scott Rao articles
+  - Pre-Installed pour over recipes (templates) for v60, Kono Tripper and Tricolate brewers
   - Multiple brew methods: "V60", "Espro Bloom", "Hario Switch", "Kono" and "Tricolate" with the option to input any custom method
   - Custom templates
   - Built-in timer
