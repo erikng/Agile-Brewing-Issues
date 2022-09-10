@@ -10,11 +10,10 @@ https://apps.apple.com/us/app/agile-brewing/id1630297854
 # Form for Pricing Feedback
 https://docs.google.com/forms/d/e/1FAIpQLSeMkMTS8B6eoP-z8_0b02EV8Qau7Xw7OAoqiLkCFr3zyuHV0g/viewform?usp=sf_link
 
-## [1.1.0] - 2022-09-13
+## [1.1.0] - 2022-09-12
 ### Notes
 - This release only supports iOS 16 and higher.
   - v1.0.8 is the last supported release for iOS 15
-- My favorite new feature is the ability to duplicate a prior drink
 - If you would like the new pour over views to be ported over to the espresso side, please let me know
 
 ### Added
@@ -23,8 +22,9 @@ https://docs.google.com/forms/d/e/1FAIpQLSeMkMTS8B6eoP-z8_0b02EV8Qau7Xw7OAoqiLkC
 - Welcome screen changes
   - New users get a more detailed report of what the application does
   - Upgraded users get a new informational section on "pour overs"
-- Pour Over support
+- Pour Over support!
   - With a radically different UI than the Espresso views, the pour over design is created around replicating your favorite recipes, time and time again
+  - Customize the pour over background with millions of colors
   - Don't waste ground coffee! Increase or decrease your dosage and all of your water weight pours will be re-calculated according to your desired ratio
   - Pre-Installed pour over recipes (templates) for v60, Kono Tripper and Tricolate brewers
   - Multiple brew methods: "V60", "Espro Bloom", "Hario Switch", "Kono" and "Tricolate" with the option to input any custom method
@@ -39,11 +39,13 @@ https://docs.google.com/forms/d/e/1FAIpQLSeMkMTS8B6eoP-z8_0b02EV8Qau7Xw7OAoqiLkC
 - Duplicate a drink
   - Take any previous pour over or espresso and use this as the basis of your next shot
   - This greatly reduces the amount of selections to input, allowing you to speed up your pre and post pour process
+  - ^ IS MY FAVORITE NEW FEATURE
  Disable the Screen Idle Timer
   - When preparing your espresso shot or more importantly using the new pour over feature, you can now prohibit iOS from turning off your screen
   - This is enabled by default
 - Redesign of "Drink History" page
   - Powered by SwiftUI 4 Gauges and Charts, there is now rich content about your drinks, both for espresso and pour over drink types. Track your favorite drinks and see how close you are to your desired yield
+  - Search through your drinks and go back in time for that favorite shot
 - Enable/Disable Pour Over and Espresso views
   - If you only use the application for one drink type, you can remove the other
   - When using both, the top Navigation Bar will have a different behavior
@@ -54,7 +56,7 @@ https://docs.google.com/forms/d/e/1FAIpQLSeMkMTS8B6eoP-z8_0b02EV8Qau7Xw7OAoqiLkC
 - Temperature gauges now show F/C to better differentiate current selection
 - Many text fields can now dynamically change their font size to fit the available space
 - Added SwiftUI 4 "Scroll Dismisses Keyboard Immediately" logic
-- Hidden Long Press views are now on the "Drinks", "Templates" and "Settings" tabs
+- Hidden Long Press views are now in the "Drinks", "Templates" and "Settings" tabs
 - Automatically convert templates and drinks "Brew Temp" when changing from Farenheit to Celcius and Celcius to Farenheit
 
 ### Changed
@@ -82,12 +84,12 @@ https://docs.google.com/forms/d/e/1FAIpQLSeMkMTS8B6eoP-z8_0b02EV8Qau7Xw7OAoqiLkC
 - Moved to SwiftUI 4 built-in gradients
 
 ### Fixed
-- "Grind Size", "Dosage" and "Actual Yield" selectable area is now the full horizontal width
+- "Grind Size", "Dosage" and "Actual Yield" selectable areas are now the full horizontal width
 - Improved "Actual Yield" calculation (dosage * ratio)
 - Fixed known bugs for calculating "Actual Yield" automatically from previous drinks and templates
 - Corrected yield discrepancy between "drink" and "drink history" espresso views
 - On iOS 15, depending on where the user's field of view is when tapping a selector, the list items may have been in a reverse order
-- Refactored "Drink" tab to resolve all known performance issues when using Espresso mode
+- Refactored "Drink" tab to resolve many performance issues when using Espresso mode
 - Refactored significant portions of the "Espresso" logic, increasing performance, decrease compilation time and decreasing repeated code
 - Refactored many SwiftUI views into separate components, increasing performance and decreasing code
 - Removed all "Lists" from "Form" views, increasing performance
