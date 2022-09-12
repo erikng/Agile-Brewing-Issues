@@ -10,6 +10,28 @@ https://apps.apple.com/us/app/agile-brewing/id1630297854
 # Form for Pricing Feedback
 https://docs.google.com/forms/d/e/1FAIpQLSeMkMTS8B6eoP-z8_0b02EV8Qau7Xw7OAoqiLkCFr3zyuHV0g/viewform?usp=sf_link
 
+## [1.1.1] - 2022-09-12
+### Added
+- New "Helper UIs" to inform user on pour over timing and weights during an active pour over session
+  - Dynamic Guide for pour progress
+  - Prepare user 5 seconds before next component
+- Affogato drink type
+- Add a new "Pour Over Delay" UI when starting a pour over
+  - User changable in Settings tab
+  - Defaults to 5 seconds
+
+### Changed
+- New Icon!
+  - Reduction in App Size due to new icon and better png compression: Download 27% reduction, Install 10% reduction
+- Some header texts have been slightly changed in the Settings tab
+- Removed bean selector in pour over history view since there is now search
+- Refactored Pour Over UI to dynamically hide fields when in an active recipe
+
+### Fixed
+- When selecting a bean with a small name, the bean selection text will now take up all horizontal width
+- All "Custom" fields now have proper user input sections
+- Lots of small bug fixes with Pour Overs that made it kind of annoying
+
 ## [1.1.0] - 2022-09-12
 ### Notes
 - This release only supports iOS 16 and higher.
